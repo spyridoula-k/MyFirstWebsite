@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Scripts-->
+    <script src="scripts/scriptFilter.js" defer></script>
+    <script src="scripts/scriptForBurger.js" defer></script>
+    <!--Styles-->
+    <link rel="stylesheet" href="styles/basics.css">
+    <link rel="stylesheet" href="styles/team.css">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+    </style>
+</head>
+<body>
+    <!--HEADER STARTS HERE-->
+    <div class="header">
+        <div class="container">
+          <div class="logo">
+            <a href="index.html">
+              <img src="images/logo/logo.png" />
+            </a>
+          </div>
+
+          <div class="navbar">
+            <ul>
+              <li><a href="index.html" class="navLink">Home</a></li>
+              <li><a href="about.html" class="navLink">About</a></li>
+              <li><a href="schedule.html" class="navLink">Schedule</a></li>
+              <li><a href="the_team.html" class="navLink">The team</a></li>
+              <li><a href="contact.html" class="navLink">Contact</a></li>
+            </ul>
+          </div>
+
+	<!-- Burger Icon -->
+      <div class="burgerMenu">
+        <span class="bar"></span>
+		<span class="bar"></span>
+		<span class="bar"></span>
+      </div>
+	  
+
+          <div class="socialMedia">
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/SocialMedia/facebook.png" /> </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/" target="_blank"><img src="images/SocialMedia/instagram.png" /> </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/" target="_blank"><img src="images/SocialMedia/youtube.png" /> </a>
+              </li>
+              <li>
+                <a href="https://www.tiktok.com/el-GR/" target="_blank"><img src="images/SocialMedia/tiktok.png" /> </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+   <!--HEADER ENDS HERE-->
+
+   <div class="startImage">
+    <h1>The Team</h1>
+    </div>
+
+    <div class="filterButtons">
+    <button onclick="filterMembers('all')">Show All</button>
+    <button onclick="filterMembers('yoga')">Yoga</button>
+    <button onclick="filterMembers('pilates')">Pilates</button>
+    <button onclick="filterMembers('taichi')">Tai Chi</button>
+    </div>
+
+    <div class="members" id="membersContainer">
+    </div>
+ 
+ 
+    <!--FOOTER STARTS HERE-->
+
+
+ <div class="footer">
+    <div class="columns">
+       <div class="box1">
+           <div class="logo">
+                   <img src="./images/logo/logo.png">
+            </div>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa delectus culpa laudantium nulla corrupti, impedit sapiente ipsum quia dolores, veritatis explicabo possimus nesciunt? Magni, quos.</p>
+       </div>
+
+       <div class="box2">
+           <h3>Contact</h3> 
+           <ul> 
+               <li>
+                   <img src="images/footer/location.png">
+                   <p>26985 Brighton Lane, Lake Forest, CA 9263</p>
+               </li>
+               <li>
+                   <img src="images/footer/phone.png">
+                  <p>+1(949) 354-2574</p>
+               </li>
+               <li>
+                   <img src="images/footer/email.png">
+                   <p>email@email.com</p>
+               </li>
+
+           </ul>
+       </div>
+       <div class="box3">
+           <h3>Sitemap</h3>
+           <ul>
+               <li>
+                  <a href="index.html"> Home </a>
+               </li>
+               <li>
+                  <a href="about.html"> About </a>
+               </li>
+               <li>
+                 <a href="schedule.html">  Schedule </a>
+               </li>
+               <li>
+                  <a href="the_team.html"> The team </a>
+               </li>
+               <li>
+                  <a href="contact.html"> Contact </a>
+               </li>
+           </ul>
+       </div>
+ <div class="box4">
+          <h3>Follow us</h3>
+          <div class="socialMedia">
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/SocialMedia/facebook.png" /> </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/" target="_blank"><img src="images/SocialMedia/instagram.png" /> </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/" target="_blank"><img src="images/SocialMedia/youtube.png" /> </a>
+              </li>
+              <li>
+                <a href="https://www.tiktok.com/el-GR/" target="_blank"><img src="images/SocialMedia/tiktok.png" /> </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+    <div class="rowEnd">
+       <div class="copyrights">
+           <p>Copyrights &copy; 2025</p>
+       </div>
+       <div class="policyTerms">
+          <a href="privacyPolicy.html" target="_blank">Privacy Policy</a>
+          <a href="terms.html" target="_blank">Terms & Conditions</a>
+    </div>
+   </div>
+
+<!--FOOTER ENDS HERE-->
+
+
+
+   
+</body>
+</html>
